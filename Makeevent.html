@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/images/logoicon.PNG">
+    <title>Comsport | Make Event</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-lugx-gaming.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 589 lugx gaming
+
+https://templatemo.com/tm-589-lugx-gaming
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="" style="width: 250px;">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li><a href="homepatnership.html" >Home</a></li>
+                    <li><a href="EventList.html" >Event</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                      
+                  </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  <!-- ***** Header Area End ***** -->
+
+  <div class="page-heading header-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12" >
+          <h3 >MAKE YOUR EVENT</h3>
+          <span  class="breadcrumb"><a href="#">Home</a>  >  <a href="#">Event</a>  >  Create Event</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="single-product section" >
+    <div class="container" >
+      <form>
+      <h3 style="font-size: 40px; margin-bottom: 20px; "><i>MAKE EVENT</i></h3>
+      <div class="row">
+        
+        <div class="col-lg-6">
+          
+          <div class="left-image" >
+            <form>        
+              <img id="preview" src="assets/images/noimages.jpg" alt="Preview" style="display:block;" >
+              <label  style="margin-left: 200px; margin-top: 20px; background-color: coral; color: white; border-radius: 20px;" for="image-upload" class="custom-file-upload">
+                <i class="fa fa-upload"></i>
+                <b>Upload Image</b>
+              </label>
+              <input id="image-upload" style="margin-left: 200px; margin-top: 0px; font-size: 1; margin-bottom: 0;" type="file"  onchange="previewImage(event)">
+            </form> 
+          
+          </div>
+        </div>
+        <!-- <label style="margin-left: 20%; font-size: 50px;">MAKE EVENT</label> -->
+        <div class="col-lg-6 ">
+          
+          <label style="margin-top: 10px;" for="judul">Event Name</label><br>
+          <input type="text" name="Judul Kompetisi" placeholder="" style="padding: 5px; text-align: justify; width: 100%; border-radius: 5px 5px 5px 5px;">
+          <label style="margin-top: 5px;" for="judul">Category</label><br>
+          <select style="padding: 5px; text-align: justify; width: 100%; border-radius: 5px 5px 5px 5px;">
+            <option value="judul" selected>Pilih Category</option>
+            <option value="" >Silat</option>
+            <option value="">Football</option>
+            <option value="" >VolleyBall</option>
+            <option value="">Basket Ball</option>
+            <option value="" >Badminton</option>
+            <option value="">Lainnya</option>
+       </select>
+          <label style="margin-top: 5px;" for="judul">Location</label><br>
+          <input list="data" id="judul"  name="judul" placeholder="" style="padding: 5px; text-align: justify; width: 100%; border-radius: 5px 5px 5px 5px;">
+          <datalist id="data">
+            <option value="Lampung">
+            <option value="Banten">
+            <option value="Jakarta">
+            <option value="Magelang">
+            <option value="Bandung">
+            <option value="Lainnya">
+          </datalist>
+          <label style="margin-top: 5px;" for="judul">Open Time</label><br>
+          <input type="date" name="Judul Kompetisi" placeholder="" style="padding: 5px; text-align: justify; width: 100%; border-radius: 5px 5px 5px 5px;">
+          <label style="margin-top: 5px;" for="judul">Close Time</label><br>
+          <input type="date" name="Judul Kompetisi" placeholder="" style="padding: 5px; text-align: justify; width: 100%; border-radius: 5px 5px 5px 5px;">
+          <label style="margin-top: 5px;" for="judul">Contact</label><br>
+          <input type="text" name="Judul Kompetisi" placeholder="" style="padding: 5px; text-align: justify; width: 100%; border-radius: 5px 5px 5px 5px;">
+          <label style="margin-top: 5px;" for="judul">Link Form</label><br>
+          <input type="text" name="Judul Kompetisi" placeholder="" style="padding: 5px; text-align: justify; width: 100%; border-radius: 5px 5px 5px 5px;">
+          <label style="margin-top: 5px;" for="judul">Description</label><br>
+          <textarea type="text" name="Judul Kompetisi" placeholder="" style="background-color: #ececec; padding: 5px; text-align: justify; width: 100%; height: 20%; border-radius: 5px 5px 5px 5px; margin-bottom: 5%;">
+          
+        </textarea>
+          <div class="col-lg-10 col-md-6">
+          <a style="background-color: coral; color: white; margin-left: 50%; margin-top: 10px; margin-bottom: 10%; padding: 10px 25px; border-radius: 20px;" href="EventList.html" >Add Event</a>
+          </div>
+          
+        </div>
+        <div class="col-lg-12" style="margin-top: 5%;">
+          <div class="sep"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+<!-- <div class="col-lg-10 col-md-6" style="margin-top: 3%; margin-bottom: 3%;">
+  <a style="background-color: coral; color: white; margin-left: 50%; margin-top: 10px; margin-bottom: 10%; padding: 10px; border-radius: 20px;" href="EventList.html" >Add Event</a>
+  </div> -->
+
+  
+
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="footer-about">
+                    
+                    <div class="service-row-img">
+                      <img src="assets/images/logobg.png" alt="Service">
+                  </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer-link">
+                            <h2>Product Us</h2>
+                            <a href="">About Us</a>
+                            <a href="">Our Event</a>
+                            <a href="">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-link">
+                            <h2>Useful Link</h2>
+                            <a href="">Our Football</a>
+                            <a href="">Our VolleyBall</a>
+                            <a href="">Our Badminton</a>
+                            <a href="">Our Silat</a>
+                            <a href="">Our BasketBall</a>
+                            <a href="">Our Karate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container copyright">
+        <div class="row">
+            <div class="col-md-6">
+                <p>&copy; <a href="">BigThree</a>, All Right Reserved.</p>
+            </div>
+            <div class="col-md-6">
+                <p>Template By <a href="">BigThree</a></p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/previewimage.js"></script>
+
+  </body>
+</html>
